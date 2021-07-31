@@ -8,6 +8,8 @@ export class Step00HelloCdkStack extends cdk.Stack {
     // The code that defines your stack goes here
     new s3.Bucket(this, "MyFirstBucket", {
       versioned: true,
+      removalPolicy: cdk.RemovalPolicy.DESTROY,
+      autoDeleteObjects: true,
     });
   }
 }
