@@ -82,3 +82,10 @@ Patterns or L3 declare multiple resources to create entire AWS architectures for
 - [Installing the AWS SAM CLI - This is an AWS CLI tool that helps you develop, test, and analyze your serverless applications locally](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html)
 - [Install AWS CDK](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html)
 - [Understand the key concepts](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html)
+
+## Video Lecture
+
+[YouTube English](https://www.youtube.com/watch?v=UpuVx8c0-lA&ab_channel=PanacloudServerlessSaaSTraining)
+[Facebook English](https://web.facebook.com/zeeshanhanif/videos/10225191381716499?_rdc=1&_rdr)
+[YouTube Urdu](https://www.youtube.com/watch?v=xWF-LCTnSy4&ab_channel=PanacloudServerlessSaaSTraininginUrdu)
+[Facebook Urdu](https://web.facebook.com/zeeshanhanif/videos/10225203759985948?_rdc=1&_rdr)
