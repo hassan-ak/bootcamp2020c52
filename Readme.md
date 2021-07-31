@@ -4,6 +4,14 @@
 
 Working with AWS we are going to use serverless portion of it. It is made mush easier with CDK, AWS centralized every thing in the form of cloud formation and then CDK and provided minimalist constructs so we can call them for configuration. Cloud formation is web assembly but we are going to use typescript for working with CDK. All the resources can be written in high level programming language and are reusable. A CDK app is made up of multiple stacks and CDK use cloud formation so, our code is converted into that.
 
+An AWS CDK app is an application that uses the AWS CDK to define AWS infrastructure. An app defines one or more stacks. Stacks (equivalent to AWS CloudFormation stacks) contain constructs (L1, L2 or L3), each of which defines one or more concrete AWS resources.
+
+AWS CloudFormation-only or L1 constructs correspond directly to resource types defined by AWS CloudFormation. These constructs are automatically generated from the AWS CloudFormation specification, so when a new AWS service is launched, the AWS CDK supports it as soon as AWS CloudFormation does. AWS CloudFormation resources always have names that begin with Cfn. For example, in the Amazon S3 module, CfnBucket is the L1 module for an Amazon S3 bucket.
+
+Curated or constructs are developed by AWS to address specific use cases and simplify infrastructure development. They encapsulate L1 modules. For example, in S3 module, Bucket is the L2 module for an S3 bucket. L2 modules may also define supporting resources needed by the primary resource. Some services have more than one L2 module in the Construct Library for organizational purposes.
+
+Patterns or L3 declare multiple resources to create entire AWS architectures for particular use cases. All the plumbing is already hooked up, and configuration is boiled down to a few important parameters. In the AWS Construct Library, patterns are in separate modules from L1 and L2 constructs.
+
 ## Steps: -
 
 - Signup to AWS
@@ -41,9 +49,25 @@ Working with AWS we are going to use serverless portion of it. It is made mush e
   - Install Git
 
 - Install AWS CDK
+
   - "aws configure"
   - "npm install -g aws-cdk"
   - "cdk --version"
+
+- Create Hello world App[Demo](https://docs.aws.amazon.com/cdk/latest/guide/hello_world.html)
+  - "mkdir step00_hello_cdk"
+  - "cd step00_hello_cdk"
+  - "cdk init app --language typescript"
+  - "cdk ls"
+  - "npm install @aws-cdk/aws-s3"
+  - "add s3 bucket in the stack"
+  - "npm run build"
+  - "cdk synth"
+  - "cdk deploy"
+  - deployed stack can be viewd at "https://console.aws.amazon.com/cloudformation/home"
+  - deployed bucket can be viewd at "https://s3.console.aws.amazon.com/s3/home"
+  - "cdk diff"
+  - "cdk destroy"
 
 ## Reading Material: -
 
