@@ -89,3 +89,10 @@ Patterns or L3 declare multiple resources to create entire AWS architectures for
 - [Facebook English](https://web.facebook.com/zeeshanhanif/videos/10225191381716499?_rdc=1&_rdr)
 - [YouTube Urdu](https://www.youtube.com/watch?v=xWF-LCTnSy4&ab_channel=PanacloudServerlessSaaSTraininginUrdu)
 - [Facebook Urdu](https://web.facebook.com/zeeshanhanif/videos/10225203759985948?_rdc=1&_rdr)
+
+## References: -
+
+This repository is based on
+
+- [Panacloud BootCamp 2020](https://github.com/panacloud/bootcamp-2020)
+- [Learn Full Stack Serverless Apps and API Development with CDK in Baby Steps](https://github.com/panacloud-modern-global-apps/full-stack-serverless-cdk)
