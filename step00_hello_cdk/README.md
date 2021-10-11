@@ -1,4 +1,4 @@
-# Hello CDK
+# Step00 Hello CDK
 
 - "mkdir step00_hello_cdk"
 - "cd step00_hello_cdk"
