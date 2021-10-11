@@ -90,6 +90,8 @@ Patterns or L3 declare multiple resources to create entire AWS architectures for
 - [Install AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
 - [Installing the AWS SAM CLI - This is an AWS CLI tool that helps you develop, test, and analyze your serverless applications locally](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html)
 - [Install AWS CDK](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html)
+- [Install Docker to test apps locally](https://docs.docker.com/get-docker/)
+- [Install the Toolkit for VS Code](https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/setup-toolkit.html)
 - [Understand the key concepts](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html)
 
 ## Video Lecture
