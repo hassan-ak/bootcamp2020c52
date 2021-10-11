@@ -1,14 +1,15 @@
-# Welcome to your CDK TypeScript project!
+# Hello CDK
 
-This is a blank project for TypeScript development with CDK.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-## Useful commands
-
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
+- "mkdir step00_hello_cdk"
+- "cd step00_hello_cdk"
+- "cdk init app --language typescript"
+- "cdk ls"
+- "npm install @aws-cdk/aws-s3"
+- "add s3 bucket in the stack"
+- "npm run build"
+- "cdk synth"
+- "cdk deploy"
+- deployed stack can be viewd at "https://console.aws.amazon.com/cloudformation/home"
+- deployed bucket can be viewd at "https://s3.console.aws.amazon.com/s3/home"
+- "cdk diff"
+- "cdk destroy"
