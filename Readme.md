@@ -1,4 +1,13 @@
-# Project Setup And Stack Deployment With S3 Bucket
+# bootcamp2020c52 - Project Setup And Stack Deployment With S3 Bucket
+
+## Hello cdk
+
+- Signup on AWS
+- Create IAM user
+- Install AWS CLI
+- Install AWS SAM CLI
+- Install AWS CDK
+- Create CDK Hello app
 
 ## Class Notes: -
 
@@ -54,7 +63,7 @@ Patterns or L3 declare multiple resources to create entire AWS architectures for
   - "npm install -g aws-cdk"
   - "cdk --version"
 
-- Create Hello world App[Demo](https://docs.aws.amazon.com/cdk/latest/guide/hello_world.html)
+- Create Hello world App [Demo](https://docs.aws.amazon.com/cdk/latest/guide/hello_world.html)
   - "mkdir step00_hello_cdk"
   - "cd step00_hello_cdk"
   - "cdk init app --language typescript"
