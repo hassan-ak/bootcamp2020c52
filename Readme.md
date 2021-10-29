@@ -1,6 +1,6 @@
-# bootcamp2020c52 - Project Setup And Stack Deployment With S3 Bucket
+# bootcamp2020c52 - Introduction to AWS CDK
 
-## Hello cdk
+## Project Setup And Stack Deployment With S3 Bucket
 
 - Signup on AWS
 - Create IAM user
